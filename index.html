@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+    <title>Formulário de login </title>
+</head>
+<body>
+    <div class="main">
+        <h2 class="title"> Bem vindo de volta </h2>
+        <p> Para conectar, informe seus dados: </p>
+        <form>
+            <div class="form-group">
+              <label for="textemail">Endereço de email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu email">
+            </div>
+            <div class="form-group">
+              <label for="textpassword">Senha</label>
+              <input type="password" class="form-control" id="senha" placeholder="Senha">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="checkbox">
+              <label class="form-check-label" for="exampleCheck1"> Manter-me conectado </label>
+            </div>
+            <button type="submit" onCLick="Login()" class="btn btn-primary"> Enviar </button>
+          </form>
+    </div>
+</body>
+</html>
